@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
     DeskClock \
-    NexusLauncher \
     Wallpaper
 
 # DU Utils Library
