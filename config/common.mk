@@ -192,15 +192,6 @@ PRODUCT_PACKAGES += \
 
 
 WITH_ROOT_METHOD ?= rootless
-ifeq ($(WITH_ROOT_METHOD), magisk)
-# Magisk Manager
-PRODUCT_PACKAGES += \
-    MagiskManager
-
-# Copy Magisk zip
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
-endif
 
 # Exchange support
 PRODUCT_PACKAGES += \
