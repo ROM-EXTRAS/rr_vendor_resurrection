@@ -45,8 +45,7 @@ echo -e "";
 echo -e ${cya}" ▼ Pick a number"${txtrst}
 echo -e "";
 $normal
-read -t 30 askvariant
-sleep 1
+export askvariant=1;
 if [ "$askvariant" == "1" ]
 then
 echo -e "";

@@ -22,6 +22,7 @@
     blurev=${rev}$(tput setaf 4)
     normal='tput sgr0'
 
+export WITH_ROOT_METHOD="rootless";
 if [ -z "${WITH_ROOT_METHOD}" ]; then
 echo -e ${ylw}"\n\n ▼ Which root method do you want to use?\n"${txtrst}
 echo -e "";
